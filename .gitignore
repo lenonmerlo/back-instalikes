@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.npm*
+.yarn*
+
+# Editor files
+.DS_Store
+.idea
+.vscode
+
+# Arquivos de log
+uploads/
+logs/
+*.log
+
+# Arquivos de configuração local
+config/local.env.js
+
+# Banco de dados
+db/*.sqlite
+db/*.db
+
+# Arquivos de build
+dist/
+build/
+
+# Testes
+coverage/
+
+# Outros arquivos a serem ignorados
+.env
+chave-api-txt
